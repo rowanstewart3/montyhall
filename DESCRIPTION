@@ -1,0 +1,13 @@
+Package: montyhall
+Title: Creates a Simulated Game of the Price Is Right Monty Hall Problem 
+Version: 0.0.0.9000
+Authors@R: 
+    person("Rowan", "Stewart", , "rowanstewart@asu.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "0009-0004-3595-1225"))
+Description: This R package simulates the famous Monty Hall Problem, a probability puzzle inspired by the game show "Let's Make a Deal." It provides a set of functions to create, play, and analyze multiple iterations of the game. Users can simulate individual games or run thousands of simulations to explore the probabilities associated with different strategies. The package includes functions to set up the game, select doors, reveal goats, change selections, and determine winners. By allowing for easy generation of large datasets, this package enables users to empirically verify the counterintuitive optimal strategy of the Monty Hall Problem, making it a valuable tool for teaching probability concepts, decision-making under uncertainty, and the importance of empirical verification in statistical problems.
+License: `use_mit_license()`
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: 
+   dplyr
